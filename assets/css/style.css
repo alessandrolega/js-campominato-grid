@@ -1,0 +1,38 @@
+header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    height: 15vh;
+}
+
+main{
+    height: 80vh;
+    background-color: brown;
+}
+
+
+.container100{
+    height: 100vh;
+}
+
+.logo-cont > img{
+    width: 100px;
+    vertical-align: middle;
+}
+
+.logo-cont > h1{
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.btn-play{
+    border-radius: 10px;
+    padding: 0 20px
+}
+
+footer{
+    padding: 5px;
+}
