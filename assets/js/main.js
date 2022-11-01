@@ -12,6 +12,21 @@ function buttonPlay () {
 
     grid.innerHTML ="";
 
+    function createBox(){ 
+
+        const item = document.createElement("div"); 
+
+        if (chooseDifficult == 100){
+            item.classList.add("square"); 
+        } else if (chooseDifficult == 81){
+            item.classList.add("squareNormal"); 
+        } else if (chooseDifficult == 49) {
+            item.classList.add("squareHard")
+        } 
+        return item;
+    }
+        console.log( createBox() );
+
 
 
 
