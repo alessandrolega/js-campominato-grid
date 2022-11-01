@@ -27,6 +27,26 @@ function buttonPlay () {
     }
         console.log( createBox() );
 
+        for ( let i = 0; i < chooseDifficult; i++ ) { 
+
+            let elementCurrent = createBox(); 
+            
+    
+            elementCurrent.addEventListener('click', function(){ 
+                console.log(this);
+                this.classList.toggle('active');
+                
+            })
+    
+                elementCurrent.innerText = i + 1;
+    
+                console.log( elementCurrent )
+    
+    
+                grid.append ( elementCurrent ); 
+            
+        }
+
 
 
 
