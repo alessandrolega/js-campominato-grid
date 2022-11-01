@@ -3,16 +3,13 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: aqua;
     height: 15vh;
 }
 
 main{
     height: 80vh;
-    background-color: brown;
+    background-color: #7FFFD4;
 }
-
-
 
 .container100{
     height: 100vh;
@@ -35,6 +32,7 @@ main{
 }
 
 #grid {
+    padding-top: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,7 +67,9 @@ main{
     align-items: center;
     justify-content: center;
 }
-
+.active {
+    background-color: orange;
+}
 footer{
     padding: 5px;
     height: 5vh;
